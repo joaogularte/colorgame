@@ -1,2 +1,2 @@
 # colorgame
-A colorgame created with HTML, Css and JQuery
+A colorgame created with HTML, CSS and JS

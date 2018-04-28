@@ -1,0 +1,81 @@
+body{
+	background: #232323;
+	margin: 0; 
+	font-family: "Arial";
+} 
+
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.6%;
+	border-radius: 20px;
+	transition: background 0.5s;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1{
+	color: white;
+	line-height: 1.0;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	background: steelblue;
+	margin: 0;
+	padding: 15px 0;
+}
+
+span {
+	color: white;
+	font-size: 150%; 
+}
+
+
+
+#tripa {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+	padding-top: 0px;
+}
+
+div#tripa span#msg{
+	color: black;
+	font-size: 14px;
+	display: inline-block;
+	width: 30%;
+}
+
+.select{
+	background: steelblue;
+	color: white;
+}
+
+button:focus{
+	border: none;
+}
+
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition:  all 0.8s;
+	outline: none;
+}
+
+button:hover{
+	background: steelblue;
+	color: white;
+}
